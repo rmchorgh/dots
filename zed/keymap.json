@@ -1,0 +1,49 @@
+[
+  {
+    "bindings": {
+      "ctrl-f": "editor::MoveLineUp",
+      "ctrl-r": "editor::MoveLineDown",
+      "cmd-j": "terminal_panel::ToggleFocus",
+      "cmd-p": "command_palette::Toggle",
+      "cmd-l": "file_finder::Toggle",
+      "cmd-m": "assistant::ToggleFocus",
+      "cmd-k cmd-z": "workspace::ToggleCenteredLayout",
+      "cmd-b": "project_panel::ToggleFocus",
+      "cmd-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-n": "workspace::ActivateNextPane",
+      "ctrl-e": "pane::ActivateNextItem",
+      "cmd-d": "assistant::InlineAssist"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-n": "workspace::ActivateNextPane",
+      "ctrl-e": "pane::ActivateNextItem",
+      "cmd-j": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "ContextEditor > Editor",
+    "bindings": {
+      "cmd-m": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "cmd-g": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "cmd-b": "workspace::ToggleLeftDock"
+    }
+  }
+]

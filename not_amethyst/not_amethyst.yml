@@ -1,0 +1,56 @@
+layouts:
+  - widescreen-tall-right
+  - wide
+  - fullscreen
+  - column
+  - middle-wide
+mod1:
+  - option
+mod2:
+  - option
+  - shift
+cycle-layout:
+  mod: mod1
+  key: l
+cycle-layout-backward:
+  mod: <NONE>
+  key: <NONE>
+shrink-main:
+  mod: mod2
+  key: n
+expand-main:
+  mod: mod2
+  key: u
+increase-main:
+  mod: <NONE>
+  key: <NONE>
+decrease-main:
+  mod: <NONE>
+  key: <NONE>
+focus-cw:
+  mod: mod1
+  key: j
+focus-screen-cw:
+  mod: mod1
+  key: ","
+swap-cw:
+  mod: mod1
+  key: h
+throw-space-left:
+  mod: mod1
+  key: u
+throw-space-right:
+  mod: mod1
+  key: n
+relaunch-amethyst:
+  mod: mod2
+  key: ";"
+disable-padding-on-builtin-display: false
+smart-window-margins: true
+follow-space-thrown-windows: true
+enables-layout-hud: true
+enables-layout-hud-on-space-change: true
+mouse-follows-focus: true
+mouse-resizes-windows: true
+float-small-windows: true
+debug-layout-info: true
