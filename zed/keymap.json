@@ -41,6 +41,12 @@
     }
   },
   {
+    "context": "GitPanel > Editor",
+    "bindings": {
+      "cmd-g": "workspace::ToggleLeftDock"
+    }
+  },
+  {
     "context": "ProjectPanel",
     "bindings": {
       "cmd-b": "workspace::ToggleLeftDock"
