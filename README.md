@@ -1,7 +1,8 @@
 # Configs included in this repo
 
-- [x] Zed
-- [x] Starship
-- [x] iTerm2
 - [ ] Amethyst
+- [ ] GPG
+- [x] iTerm2
+- [x] Starship
+- [x] Zed
 - [ ] ZSH
