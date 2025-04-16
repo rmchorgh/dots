@@ -19,12 +19,19 @@
     "inline_blame": null,
     "hunk_style": null
   },
+  "git_panel": {
+    "dock": "left",
+    "default_width": 360
+  },
   "file_types": {
     "JSONC": [".config/zed/**/*.json"],
     "Shell Script": [".env*"]
   },
   "notification_panel": {
     "button": false
+  },
+  "project_panel": {
+    "default_width": 360
   },
   "soft_wrap": "editor_width",
   "tabs": {
@@ -57,7 +64,8 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark"
+    "dark": "Nord"
   },
+  "ui_font_family": "FantasqueSansM Nerd Font Mono",
   "ui_font_size": 16
 }
