@@ -3,6 +3,13 @@
 SOURCE_FILE="$HOME/.config/zsh/.zshrc"
 DEST_FILE="$HOME/.zshrc"
 
+if command -v brew >/dev/null 2>&1; then
+  echo "Homebrew is installed."
+else
+  echo "Error: Homebrew is not installed. Please install Homebrew from https://brew.sh/"
+  exit 1
+fi
+
 if [ ! -f "$DEST_FILE" ]; then
     if [ -f "$SOURCE_FILE" ]; then
         echo "No ~/.zshrc found. Copying from ~/.config/.zshrc..."
@@ -19,6 +26,7 @@ else
 
     case "$choice" in
         y|Y)
+            brew install zsh-syntax-highlighting
             echo "Replacing ~/.zshrc with ~/.config/.zshrc..."
             cp "$SOURCE_FILE" "$DEST_FILE"
             echo "Done! ~/.zshrc has been replaced."
