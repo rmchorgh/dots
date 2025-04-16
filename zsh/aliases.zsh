@@ -20,6 +20,7 @@ gt3() {
 # Utilities
 
 alias b='bun'
+alias mk='mkdir'
 alias nv='nvim'
 alias p='pnpm'
 alias pip='pip3'
