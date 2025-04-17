@@ -17,11 +17,18 @@ gt3() {
   git add . && git commit -m "$1" && git push
 }
 
-# Utilities
+# Utilities & Programs
 
 alias b='bun'
+alias d='docker'
 alias mk='mkdir'
+alias n='npm'
 alias nv='nvim'
 alias p='pnpm'
 alias pip='pip3'
 alias py='python3'
+alias y='yarn'
+
+# Folders
+
+alias f_api='$HOME/Documents/repos/api/api-new'

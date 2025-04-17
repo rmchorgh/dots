@@ -26,7 +26,6 @@ else
 
     case "$choice" in
         y|Y)
-            brew install zsh-syntax-highlighting
             echo "Replacing ~/.zshrc with ~/.config/.zshrc..."
             cp "$SOURCE_FILE" "$DEST_FILE"
             echo "Done! ~/.zshrc has been replaced."

@@ -38,7 +38,9 @@
     "button": false
   },
   "project_panel": {
-    "default_width": 360
+    "default_width": 360,
+    "auto_fold_dirs": false,
+    "git_status": true
   },
   "soft_wrap": "editor_width",
   "tabs": {
