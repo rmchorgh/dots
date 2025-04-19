@@ -2,7 +2,9 @@
   {
     "bindings": {
       "ctrl-f": "editor::MoveLineUp",
+      "ctrl-3": "editor::MoveLineUp",
       "ctrl-r": "editor::MoveLineDown",
+      "ctrl-{": "editor::MoveLineDown",
       "cmd-j": "terminal_panel::ToggleFocus",
       "cmd-p": "command_palette::Toggle",
       "cmd-l": "file_finder::Toggle",
