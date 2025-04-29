@@ -30,5 +30,6 @@ alias py='python3'
 alias y='yarn'
 
 # Folders
-
-alias f_api='$HOME/Documents/repos/api/api-new'
+#
+export API="$HOME/Documents/repos/api/api-new"
+export BACKOFFICE="$HOME/Documents/repos/ship/apps/support-portal"
