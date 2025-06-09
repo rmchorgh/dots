@@ -8,22 +8,17 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "edit_predictions": {
-    "mode": "eager",
+    "mode": "subtle",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_text_threads": true
+    "enabled_in_assistant": false
   },
-  "agent": {
-    "default_profile": "ask",
-    "inline_assistant_model": {
-      "provider": "openai",
-      "model": "gpt-4.1"
-    },
+  "assistant": {
     "default_model": {
       "provider": "openai",
-      "model": "gpt-4.1"
+      "model": "gpt-4o"
     },
     "version": "2"
   },
@@ -42,9 +37,6 @@
   "git_panel": {
     "dock": "left",
     "default_width": 360
-  },
-  "features": {
-    "edit_prediction_provider": "copilot"
   },
   "file_scan_inclusions": [".env*"],
   "file_types": {

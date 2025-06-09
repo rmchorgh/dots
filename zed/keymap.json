@@ -8,10 +8,10 @@
       "cmd-j": "terminal_panel::ToggleFocus",
       "cmd-p": "command_palette::Toggle",
       "cmd-l": "file_finder::Toggle",
-      "cmd-m": "assistant::ToggleFocus",
       "cmd-k cmd-z": "workspace::ToggleCenteredLayout",
       "cmd-b": "project_panel::ToggleFocus",
-      "cmd-g": "git_panel::ToggleFocus"
+      "cmd-g": "git_panel::ToggleFocus",
+      "cmd-m": "agent::ToggleFocus"
     }
   },
   {
@@ -31,7 +31,7 @@
     }
   },
   {
-    "context": "ContextEditor > Editor",
+    "context": "MessageEditor > Editor",
     "bindings": {
       "cmd-m": "workspace::ToggleRightDock"
     }
